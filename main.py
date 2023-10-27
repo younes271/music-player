@@ -1,12 +1,3 @@
-# music-player
-A new repository created via Python script
-
-
----
-
-Here's a simple example of a command line music player using `pygame` module in Python:
-
-```python
 import os
 import pygame
 from pygame import mixer
@@ -43,6 +34,3 @@ if __name__ == "__main__":
             break
         else:
             print("Invalid command!")
-```
-
-Please note that this is a very basic example and a real-world music player application would need to handle errors and edge cases more robustly. Also, it requires pygame library installed. You can install it with `pip install pygame`.
